@@ -1,7 +1,7 @@
 import * as readline from "readline-sync";
 
 //Arreglos
-/* let notas: number[] = [1, 2, 3, 4, 5];
+let notas: number[] = [1, 2, 3, 4, 5];
 console.log(notas);
 
 //Agregar elementos a un arreglo
@@ -31,7 +31,7 @@ nombres.forEach(
     (nombre, index) => {
     console.log(`${index + 1}. ${nombre}`);
     }
-) */
+)
 
 /*
 Ejercicio 1: Realizar un programa que dadas las calificaciones algunos alumnos,
