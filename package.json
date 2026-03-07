@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec ts-node src/arreglos.ts",
+    "dev": "nodemon --exec ts-node src/objetos.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -20,6 +20,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "axios": "^1.13.6",
     "readline-sync": "^1.4.10"
   }
 }
